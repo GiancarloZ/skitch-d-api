@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :elements
   resources :spots
   resources :users
+  resources :tricks
   post '/login' => 'auth#login'
   get '/auth' => 'auth#persist'
 

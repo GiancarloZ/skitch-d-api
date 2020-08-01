@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(version: 2020_07_23_130101) do
     t.float "lng"
     t.float "lat"
     t.binary "image"
-    t.integer "trick_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

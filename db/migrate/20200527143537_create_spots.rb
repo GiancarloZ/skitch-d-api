@@ -7,7 +7,6 @@ class CreateSpots < ActiveRecord::Migration[6.0]
       t.float "lng"
       t.float "lat"
       t.binary "image"
-      t.integer "trick_id"
       t.timestamps
     end
   end
