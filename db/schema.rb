@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2020_07_23_130101) do
 
   create_table "tricks", force: :cascade do |t|
     t.string "name"
-    t.string "type"
+    t.string "ride"
     t.string "video"
     t.integer "user_id"
     t.integer "spot_id"
