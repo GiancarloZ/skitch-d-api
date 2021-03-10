@@ -1,3 +1,5 @@
+Users = User.create([ {username: 'guest', password: '123'}, {username: 'gc', password: '123'}])
+
 Spots = Spot.create([
 
     {name: 'Quarter Pipe', style: "Pipe", user_id:2, lat: 25.8, lng: -80.15},
