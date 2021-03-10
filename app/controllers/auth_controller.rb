@@ -1,5 +1,5 @@
 class AuthController < ApplicationController
-    skip_before_action :require_login, only: [:login, :persist]
+    skip_before_action :require_login, only: [:login, :persist], :raise => false
     def login
         user = User.find_by(username: login_params[:username])
         if user && user.authenticate(login_params[:password])
